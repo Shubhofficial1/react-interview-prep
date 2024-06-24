@@ -1,11 +1,13 @@
 import React from "react";
 import TodoListApp from "./components/1/TodoListApp";
+import HolyGrailLayout from "./components/2/HolyGrailLayout";
 
 const App = () => {
   return (
-    <div>
-      <TodoListApp />
-    </div>
+    <>
+      {/* <TodoListApp /> */}
+      <HolyGrailLayout />
+    </>
   );
 };
 
